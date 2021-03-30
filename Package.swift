@@ -23,9 +23,6 @@ let package = Package(
             name: "YandexMapKit",
             path: "frameworks/YandexMapKit.xcframework"
         ),
-        .target(
-            name: "YandexMapKit",
-            dependencies: []),
         .testTarget(
             name: "YandexMapKitTests",
             dependencies: ["YandexMapKit"]),
