@@ -21,7 +21,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "YandexMapKit",
-            path: "Sources/YandexMapKit.xcframework"
+            path: "frameworks/YandexMapKit.xcframework"
         ),
         .target(
             name: "YandexMapKit",
